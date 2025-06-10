@@ -1,0 +1,13 @@
+body {
+    font-size: $font-base;
+    font-family: $font-heading;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    color: $primary-color;
+    margin-bottom: $spacing-unit;
+  }
+  
