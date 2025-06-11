@@ -1,0 +1,29 @@
+// Margin and Padding Utility Classes
+@for $i from 0 through 5 {
+  .m-#{$i} { margin: $i * $spacing_unit !important; }
+  .p-#{$i} { padding: $i * $spacing_unit !important; }
+  .mt-#{$i} { margin-top: $i * $spacing_unit !important; }
+  .mb-#{$i} { margin-bottom: $i * $spacing_unit !important; }
+  .pt-#{$i} { padding-top: $i * $spacing_unit !important; }
+  .pb-#{$i} { padding-bottom: $i * $spacing_unit !important; }
+}
+
+// Font Weight and Size
+.fw-bold { font-weight: bold; }
+.fw-light { font-weight: 300; }
+
+.fs-1 { font-size: 2rem; }
+.fs-2 { font-size: 1.5rem; }
+.fs-3 { font-size: 1.25rem; }
+
+// Text Color
+.text-primary { color: $primary-color !important; }
+.text-secondary { color: $secondary-color !important; }
+
+// Background Color
+.bg-primary { background-color: $primary-color !important; }
+.bg-secondary { background-color: $secondary-color !important; }
+
+// Border Styles
+.border { border: 1px solid #ccc; }
+.rounded { border-radius: 4px; }
