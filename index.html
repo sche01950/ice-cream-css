@@ -4,45 +4,95 @@
   <meta charset="UTF-8">
   <title>Test Framework</title>
   <link rel="stylesheet" href="dist/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <body>
 
-<section class="hero-section">
-  <div class="hero-content">
-    <div class="version">2.5.0</div>
-    <h1>Ice cream css framework</h1>
-    <p>User Interface is the language of the web</p>
-  </div>
-</section>
-
-<section class="feature-section">
-  <div class="container">
-    <h2>Design Beautiful Websites Quickly</h2>
-    <p>Our custom CSS framework provides clean styles and reusable utility classes for rapid prototyping and development.</p>
-
-    <div class="demo-grid">
-      <div>
-        <h3>Buttons</h3>
-        <button class="btn">Primary</button>
-        <button class="btn btn-secondary">Secondary</button>
-      </div>
-
-      <div>
-        <h3>Forms</h3>
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Enter email">
-      </div>
-
-      <div>
-        <h3>Table</h3>
-        <table>
-          <thead><tr><th>Name</th><th>Age</th></tr></thead>
-          <tbody><tr><td>Alice</td><td>25</td></tr><tr><td>Bob</td><td>30</td></tr></tbody>
-        </table>
-      </div>
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Design Beautiful Websites Quickly</h1>
+      <p>Our custom CSS framework provides clean styles and reusable utility classes for rapid prototyping and development.</p>
     </div>
+  </section>
+
+  <section class="container">
+
+    <h1>Component Showcase</h1>
+  
+    <!-- Buttons -->
+    <section>
+      <h2>Buttons</h2>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-outline">Outline</button>
+    </section>
+  
+    <!-- Typography -->
+    <section>
+      <h2>Typography</h2>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <p>This is a sample paragraph. It uses the base font-family.</p>
+      <p><strong>Strong text</strong> and <em>emphasized text</em>.</p>
+      <blockquote>This is a blockquote — often used for quotes or highlights.</blockquote>
+      <code>console.log('Hello World');</code>
+    </section>
+  
+    <!-- Forms -->
+    <section>
+      <h2>Forms</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name">
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email@example.com">
+  
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Your message..."></textarea>
+      </form>
+    </section>
+  
+    <!-- Cards -->
+    <<section>
+      <h2>Card</h2>
+      <div class="card">
+        <div class="card-img">
+          <span>Image cap</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Card title</h3>
+          <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <button class="btn btn-primary">Go somewhere</button>
+        </div>
+      </div>
+    </section>    
+
+    <section>
+      <h2>Images</h2>
+    
+      <h3>Responsive image</h3>
+      <div class="img-box img-responsive">Responsive</div>
+    
+      <h3>Image sizes</h3>
+      <div class="img-box img-sm">Small</div>
+      <div class="img-box img-md">Medium</div>
+      <div class="img-box img-lg">Large</div>
+    
+      <h3>Rounded image</h3>
+      <div class="img-box img-rounded">Rounded</div>
+    
+      <h3>Circle avatar</h3>
+      <div class="img-box img-avatar">Avatar</div>
+    </section>
+    
+    
+  
+  </section>  
+
   </div>
 </section>
 
